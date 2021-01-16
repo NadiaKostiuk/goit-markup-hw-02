@@ -19,6 +19,9 @@ body {
   background: #2f303a;
 }
 .navigation-list {
+}
+
+.navigation-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1 143;
