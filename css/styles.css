@@ -148,3 +148,17 @@ body {
   color: #2196f3;
   color: #ffffff;
 }
+.teamwork-list-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.teamwork-list-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
