@@ -1,5 +1,6 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
 }
 .logo {
   color: #2196f3;
@@ -9,4 +10,42 @@ body {
 }
 .main {
   background: #2f303a;
+}
+.navigation-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-list-link:hover,
+.navigation-list-link:hover {
+  color: #2196f3;
+}
+.adress-mail-link:hover,
+.adress-mail-link:focus {
+  color: #2196f3;
+}
+
+.adress-phone-link {
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.main-modal-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
