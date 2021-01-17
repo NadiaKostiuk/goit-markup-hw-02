@@ -1,22 +1,48 @@
+/* основной цвет заголовков | color: #212121; */
+/* масивный текст | color: #757575; */
+/* белый цвет (фон,герой) | color: #ffffff; */
+/* цвет ссылок | color: #2196f3; */
+/* footer color: #2f303a; */
+/* our team (фон) | background: #f5f4fa */
+
 :root {
-  --primary-text-color: #757575;
+  --main-color-titles-color: #212121;
+  --massive-text-color: #757575;
   --title-text-color: #2f303a;
-  --accent-color: #2196f3;
-  --main-bg-color: #ffffff;
-  color: rgba(255, 255, 255, 0.6);
+  --color-forces-color: #2196f3;
+  --white-bg-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --our-team: #f5f4fa;
+  --main-letter-spacing: 0.03em;
+}
+
+:visited {
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
   font-family: 'Roboto', sans-serif, inherit;
-  background-color: #e5e5e5;
-  color: #212121;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--massive-text-color);
+  background-color: var(--white-bg-color);
 }
+
 .logo {
   color: #2196f3;
 }
+
 .logo-black {
   color: black;
 }
+
 .logo-text {
   font-family: Raleway;
   font-weight: bold;
@@ -25,9 +51,11 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
 }
+
 .main-hero {
   background: #2f303a;
 }
+
 .navigation-list {
 }
 
@@ -173,4 +201,7 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
+}
+/* футер лого */
+.footer-logo {
 }
