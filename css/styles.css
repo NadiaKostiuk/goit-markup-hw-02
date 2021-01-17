@@ -35,6 +35,8 @@ body {
   background-color: var(--white-bg-color);
 }
 
+/* основное лого */
+
 .logo {
   color: #2196f3;
 }
@@ -67,8 +69,16 @@ body {
   color: #212121;
 }
 .navigation-list-link:hover,
-.navigation-list-link:hover {
+.navigation-list-link:focus {
   color: #2196f3;
+}
+.adress-mail-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
 }
 .adress-mail-link:hover,
 .adress-mail-link:focus {
@@ -76,11 +86,19 @@ body {
 }
 
 .adress-phone-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: #757575;
 }
+.adress-phone-link:hover,
+.adress-phone-link:focus {
+  color: #2196f3;
+}
+
 .main-hero-modal-btn {
   font-weight: bold;
   font-size: 16px;
@@ -93,6 +111,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -220,4 +239,49 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-map {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-map:hover,
+.footer-map:focus {
+  color: #2196f3;
+}
+
+.footer-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: #2196f3;
+}
+
+.footer-phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone:hover,
+.footer-phone:focus {
+  color: #2196f3;
 }
