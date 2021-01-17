@@ -37,7 +37,7 @@ body {
 
 /* основное лого */
 
-.logo {
+.header-logo {
   color: #2196f3;
 }
 
@@ -197,7 +197,9 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 /* футер лого */
+
 .footer-logo-text {
   font-family: Raleway;
   font-weight: bold;
