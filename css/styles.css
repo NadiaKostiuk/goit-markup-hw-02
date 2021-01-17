@@ -1,5 +1,15 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #2f303a;
+  --accent-color: #2196f3;
+  --main-bg-color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif, inherit;
+  background-color: #e5e5e5;
+  color: #212121;
 }
 .logo {
   color: #2196f3;
@@ -146,10 +156,9 @@ body {
   color: #212121;
   background: #f5f4fa;
 }
-.portfolio-navigation-list-item:hover,
-.portfolio-navigation-list-item:focus {
-  color: #2196f3;
-  color: #ffffff;
+.nav-title:hover,
+.nav-title:focus {
+  background-color: #2196f3;
 }
 .teamwork-list-title {
   font-weight: bold;
