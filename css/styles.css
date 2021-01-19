@@ -37,21 +37,18 @@ body {
 
 /* основное лого */
 
-.header-logo {
-  color: #2196f3;
-}
-
 .logo-black {
   color: black;
 }
 
-.logo-text {
+.heder-logo-text {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
   /* identical to box height */
   letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
 .main-hero {
