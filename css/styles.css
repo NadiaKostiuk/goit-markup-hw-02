@@ -42,7 +42,7 @@ body {
 }
 
 .heder-logo-text {
-  font-family: Raleway;
+  font-family: 'Raleway' sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -70,7 +70,7 @@ body {
   color: #2196f3;
 }
 .adress-mail-link {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -83,7 +83,7 @@ body {
 }
 
 .adress-phone-link {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -198,7 +198,7 @@ body {
 /* футер лого */
 
 .footer-logo-text {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -241,7 +241,7 @@ body {
 }
 
 .footer-map {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -256,7 +256,7 @@ body {
 }
 
 .footer-mail {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -271,7 +271,7 @@ body {
 }
 
 .footer-phone {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
